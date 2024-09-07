@@ -14,6 +14,7 @@
     ./ui/nvim-tree.nix
     ./ui/telescope.nix
     ./ui/zen-mode.nix
+    ./ui/undotree.nix
 
     # Vim Improvements
     ./improvements/repeat.nix

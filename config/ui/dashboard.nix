@@ -11,7 +11,7 @@
       };
 
       config = {
-        disable_move = true;
+        disable_move = false;
         header = [
           "    _   __         _    ___         "
           "   / | / /__  ____| |  / (_)___ ___ "
@@ -50,9 +50,15 @@
           }
           {
             icon = " ";
-            desc = "Config ";
+            desc = "OS Config ";
             key = "c";
-            action = "e $HOME/Documents/Code/Personal/NixFiles - Personal";
+            action = "e $HOME/Documents/Code/NixFiles - Personal";
+          }
+          {
+            icon = " ";
+            desc = "Vim Config ";
+            key = "v";
+            action = "e $HOME/Documents/Code/NixVim";
           }
         ];
       };
