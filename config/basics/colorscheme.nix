@@ -2,7 +2,7 @@
   colorschemes.onedark = {
     enable = true;
     settings = {
-      style = "darker";
+      style = "dark";
       transparent = false;
     };
   };
