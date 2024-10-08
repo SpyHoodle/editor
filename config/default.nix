@@ -34,6 +34,9 @@
     ./lsp/treesitter.nix
     ./lsp/vimtex.nix
 
+    # Discord RPC
+    ./presence.nix
+
     # Git Integration
     ./git/neogit.nix
     ./git/gitsigns.nix
