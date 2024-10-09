@@ -7,6 +7,7 @@
     ./basics/colorscheme.nix
 
     # User Interface
+    ./ui/transparent.nix
     ./ui/bufferline.nix 
     ./ui/dashboard.nix
     ./ui/lualine.nix
