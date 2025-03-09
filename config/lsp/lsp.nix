@@ -4,7 +4,7 @@
 
     servers = {
       # TypeScript / JavaScript
-      tsserver.enable = true;
+      ts_ls.enable = true;
 
       # HTML
       html.enable = true;
@@ -16,7 +16,7 @@
       jsonls.enable = true;
 
       # Rust
-      rust-analyzer = {
+      rust_analyzer = {
         enable = true;
         installRustc = true;
         installCargo = true;
@@ -32,10 +32,10 @@
       yamlls.enable = true;
 
       # Lua
-      lua-ls.enable = true;
+      lua_ls.enable = true;
 
       # Nix
-      nil-ls.enable = true;
+      nil_ls.enable = true;
     };
   };
 
